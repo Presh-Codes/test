@@ -40,6 +40,8 @@ void main(){
     print("Confused");
   }
 
+// Switch-Case
+
   switch(number2){
     case 0:
       print("Even");
@@ -50,6 +52,8 @@ void main(){
     default:
       print("Confused");
   }
+
+// For Loops
 
   for (var i = 1; i <= 10; ++i){
     print(i);
@@ -62,4 +66,20 @@ void main(){
   }
 
   number4.forEach( (n) => print(n) );
+
+// While Loop
+
+  var number5 = 21;
+  while (number5 <= 30){
+    print(number5);
+    number5 += 1;
+  }
+
+// More on loops
+
+  print("These are the odd numbers from 1 to 10: ");
+  for (var i = 1; i <= 10; ++i){
+    if (i % 2 == 0) continue;
+    print(i);
+  }
 }
